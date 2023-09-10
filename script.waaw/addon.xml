@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="script.waaw" name="Waaw Resolver" version="0.7.1" provider-name="yes">
+    <requires>
+        <import addon="script.module.requests" />
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description>Waaw Resolver</description>
+        <disclaimer></disclaimer>
+        <summary>Waaw Resolver</summary>
+        <language>en</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website></website>
+    </extension>
+</addon>
