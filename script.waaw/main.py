@@ -54,7 +54,7 @@ def get_video_by_id(id: str):
         application/signed-exchange;v=b3;q=0.7",
         "accept-language": "en-US,en;q=0.9",
     }
-    r = session.get(f"https://waaw.ac/e/{id}", headers=headers)
+    r = session.get("https://waaw.ac/e/" + id, headers=headers)
     # videoid = "51676240",
     video_id = search(r"'videoid': '(\d+)'", r.text).group(1)
     # adbn = '139933',
